@@ -162,193 +162,193 @@ else
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-12/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-12 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-12-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-12 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-12-astor_output.log &
 else
 	echo Skip jKali/Time-12
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-12/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-12 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-12-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-12 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-12-astor_output.log &
 else
 	echo Skip jMutRepair/Time-12
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-13/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-13 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-13-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-13 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-13-astor_output.log &
 else
 	echo Skip jKali/Time-13
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-13/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-13 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-13-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-13 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-13-astor_output.log &
 else
 	echo Skip jMutRepair/Time-13
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-14/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-14 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-14-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-14 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-14-astor_output.log &
 else
 	echo Skip jKali/Time-14
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-14/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-14 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-14-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-14 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-14-astor_output.log &
 else
 	echo Skip jMutRepair/Time-14
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-15/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-15 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-15-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-15 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-15-astor_output.log &
 else
 	echo Skip jKali/Time-15
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-15/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-15 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-15-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-15 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-15-astor_output.log &
 else
 	echo Skip jMutRepair/Time-15
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-16/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-16 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-16-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-16 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-16-astor_output.log &
 else
 	echo Skip jKali/Time-16
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-16/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-16 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-16-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-16 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-16-astor_output.log &
 else
 	echo Skip jMutRepair/Time-16
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-17/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-17 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-17-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-17 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-17-astor_output.log &
 else
 	echo Skip jKali/Time-17
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-17/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-17 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-17-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-17 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-17-astor_output.log &
 else
 	echo Skip jMutRepair/Time-17
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-18/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-18 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-18-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-18 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-18-astor_output.log &
 else
 	echo Skip jKali/Time-18
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-18/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-18 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-18-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-18 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-18-astor_output.log &
 else
 	echo Skip jMutRepair/Time-18
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-19/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-19 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-19-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-19 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-19-astor_output.log &
 else
 	echo Skip jKali/Time-19
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-19/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-19 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-19-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-19 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-19-astor_output.log &
 else
 	echo Skip jMutRepair/Time-19
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-20/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-20 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-20-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-20 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-20-astor_output.log &
 else
 	echo Skip jKali/Time-20
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-20/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-20 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-20-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-20 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-20-astor_output.log &
 else
 	echo Skip jMutRepair/Time-20
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-21/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-21 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-21-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-21 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-21-astor_output.log &
 else
 	echo Skip jKali/Time-21
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-21/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-21 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-21-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-21 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-21-astor_output.log &
 else
 	echo Skip jMutRepair/Time-21
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-22/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-22 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-22-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-22 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-22-astor_output.log &
 else
 	echo Skip jKali/Time-22
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-22/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-22 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-22-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-22 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-22-astor_output.log &
 else
 	echo Skip jMutRepair/Time-22
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-23/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-23 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-23-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-23 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-23-astor_output.log &
 else
 	echo Skip jKali/Time-23
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-23/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-23 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-23-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-23 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-23-astor_output.log &
 else
 	echo Skip jMutRepair/Time-23
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-24/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-24 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-24-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-24 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-24-astor_output.log &
 else
 	echo Skip jKali/Time-24
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-24/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-24 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-24-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-24 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-24-astor_output.log &
 else
 	echo Skip jMutRepair/Time-24
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-25/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-25 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-25-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-25 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-25-astor_output.log &
 else
 	echo Skip jKali/Time-25
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-25/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-25 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-25-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-25 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-25-astor_output.log &
 else
 	echo Skip jMutRepair/Time-25
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-26/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-26 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-26-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-26 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-26-astor_output.log &
 else
 	echo Skip jKali/Time-26
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-26/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-26 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-26-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-26 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-26-astor_output.log &
 else
 	echo Skip jMutRepair/Time-26
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jKali/AstorMain-Time-27/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-27 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-27-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jKali -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-27 -out ./output-astor/jKali -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jKali-Time-27-astor_output.log &
 else
 	echo Skip jKali/Time-27
 fi
 waitForJobs
 if [ ! -f $D4J/output-astor/jMutRepair/AstorMain-Time-27/astor_output.json ]; then
-	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/main/test -binjavafolder target/classes -bintestfolder target/test-classes -location $D4J/build/Time-27 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-27-astor_output.log &
+	java -cp $(cat $ASTOR/astor-classpath.txt):$ASTOR/lib/jtestex7.jar:$ASTOR/astor.jar fr.inria.main.evolution.AstorMain -mode jMutRepair -javacompliancelevel 7 -jvm4testexecution $ASTOR_JRE7 -maxgen 100000 -stopfirst true -maxtime 60 -tmax1 60000 -srcjavafolder src/main/java -srctestfolder src/test/java -binjavafolder build/classes -bintestfolder build/tests -location $D4J/build/Time-27 -out ./output-astor/jMutRepair -dependencies $D4J/framework/projects/Time/lib 2>&1 > $D4J/output-astor/log/jMutRepair-Time-27-astor_output.log &
 else
 	echo Skip jMutRepair/Time-27
 fi
